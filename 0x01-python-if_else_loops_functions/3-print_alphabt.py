@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-# Author - Bamidele Adefolaju
-for letter in range(97, 123):
-    if chr(letter) != 'q' and chr(letter) != 'e':
-        print("{}".format(chr(letter)), end="")
+for c in range(97, 123):
+    if c != 101 and c != 113:
+        print('{}'.format(chr(c)), end='')
